@@ -77,8 +77,8 @@ flag = point1.falls_in_rectangle(rectanglex)
 resp = point1.distance_from_point(point2)
 print(flag)
 print(resp)"""
-
 "Juego"
+
 rectangle = GuiRectangle(
     Point(randint(0, 400), randint(0, 400)),
     Point(randint(10, 400), randint(10, 400)))
